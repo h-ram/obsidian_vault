@@ -4,16 +4,13 @@
 ## **1. Checking if `iwd` is Installed and Running**
 Before using `iwctl`, ensure that **iwd** is installed and running.
 ```bash
-pacman -Q iwd   # Arch Linux
-apt list --installed | grep iwd  # Debian-based
+sudo pacman -S iwd                   # Arch Linux
+sudo apt install iwd                 # Debian-based
 ```
 ### **Enable `iwd` and start it:**
 ```bash
-sudo systemctl enable --now iwd
-```
-### **Check service status:**
-```bash
-systemctl status iwd
+$ sudo systemctl enable --now iwd
+$ systemctl status iwd
 ```
 ---
 
