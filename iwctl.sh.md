@@ -13,35 +13,23 @@ $ sudo systemctl enable --now iwd
 $ systemctl status iwd
 ```
 ---
-## **2. Using `iwctl`**
-To start `iwctl`, simply run:
-```bash
-$ iwctl
-[iwctl]# 
-```
-Alternatively, you can execute a command directly:
-```bash
-iwctl <command>
-```
-
-### **Exit `iwctl`**
-
-Type:
-
-```bash
-exit
-```
-
----
-
-## **3. Checking Available Interfaces**
-
+## **Usage** 
+There are two ways to use iwctl:
+1. start `iwctl` console:
+	```bash
+	$ iwctl
+	[iwctl]# <command>
+	[iwctl]# exit 
+	```
+2. execute a command directly:
+	```bash
+	$ iwctl <command>
+	```
+#### **1. Checking Available Interfaces**
 To list available Wi-Fi interfaces:
-
 ```bash
 iwctl device list
 ```
-
 Example output:
 
 ```
