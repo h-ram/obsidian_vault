@@ -343,7 +343,6 @@ sudo systemctl enable --now wpa_supplicant
 
 `iwctl` is a powerful and lightweight tool for managing Wi-Fi on Linux. It simplifies network management while being more efficient than `wpa_supplicant`.
 
-Would you like me to help you with a specific `iwctl` issue? 🚀
 
 
 `iwctl` stands for **"iNet Wireless Control Tool"**.
