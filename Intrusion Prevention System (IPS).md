@@ -1,0 +1,1 @@
+A device or application that detects and stops intrusions attempts. Unlike [[Intrusion Detection System (IDS)|IDS]] which only detects.

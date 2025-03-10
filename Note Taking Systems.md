@@ -1,0 +1,2 @@
+[[Zettelkasten method]] 
+[[Cornell method]]

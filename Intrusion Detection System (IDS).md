@@ -1,0 +1,1 @@
+ A system (device or application) that detects unauthorised network and system intrusions. Examples include detecting unauthorised devices connected to the local network and unauthorised users accessing a system or modifying a file.

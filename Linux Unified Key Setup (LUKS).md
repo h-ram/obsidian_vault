@@ -1,0 +1,1 @@
+LUKS (**Linux Unified Key Setup**) is a disk encryption standard for Linux, commonly used with **dm-crypt**. It provides full-disk encryption and supports multiple key slots for unlocking.

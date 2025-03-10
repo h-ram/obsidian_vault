@@ -1,0 +1,1 @@
+A powerful Arabic NLP toolkit developed by the QCRI group, supporting tokenization, POS tagging, diacritization, and more.

@@ -1,0 +1,1 @@
+Georgian architecture is the name given in most English-speaking countries to the set of architectural styles current between 1714 and 1830. It is named after the first four British monarchs of the House of Hanover, George I, George II, George III, and George IV, who reigned in continuous succession from August 1714 to June 1830.

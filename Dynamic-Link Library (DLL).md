@@ -1,0 +1,2 @@
+A **DLL file** is a shared **library file** in Windows that contains **code, functions, and resources** used by multiple programs. It allows programs to share code instead of having duplicate copies, saving memory and improving efficiency.
+- `.dll` files are primary used on Windows Systems.

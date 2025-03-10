@@ -1,0 +1,8 @@
+A **botnet** is a network of **compromised computers** or **devices** that are controlled remotely by a cybercriminal (often referred to as a **botmaster** or **herder**). These devices, known as **bots** or **zombies**, are infected with malicious software (malware) that allows the attacker to control them without the knowledge of the device owner.
+### Common Uses of Botnets:
+1. **Distributed Denial of Service (DDoS) Attacks**: One of the most common uses of botnets is to launch DDoS attacks, where the botnet floods a target (e.g., a website or server) with a massive amount of traffic, overwhelming it and causing it to become inaccessible.
+2. **Spam Campaigns**: Botnets are often used to send large volumes of spam emails, which may carry malware, phishing attempts, or other forms of malicious content.
+3. **Data Theft**: Botnets can be used to steal sensitive data, such as login credentials, banking information, and personal details, by infecting systems with malware designed to capture and transmit this data back to the attacker.
+4. **Cryptocurrency Mining**: Some botnets are used to hijack the computing power of infected devices to mine cryptocurrency without the owner's consent, often referred to as **cryptojacking**.
+5. **Fraud and Click Fraud**: Botnets can also be used for ad fraud, where bots click on ads or generate fake traffic to inflate ad revenue.
+6. **Spreading Malware**: Botnets can be used to distribute additional malware or ransomware, infecting even more devices and expanding the botnet.

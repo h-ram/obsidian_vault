@@ -1,0 +1,2 @@
+[Is it actually possible to skip Military service?](https://www.reddit.com/r/algeria/comments/1b8snca/is_it_actually_possible_to_skip_military_service/)
+[Is completing mandatory military service worth it?](https://www.reddit.com/r/algeria/comments/18q2j5r/is_completing_mandatory_military_service_worth_it/)

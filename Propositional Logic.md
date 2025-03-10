@@ -1,0 +1,1 @@
+Propositional logic is a branch of logic that deals with statements (propositions) that are either true or false. It uses logical connectives such as **AND** (∧), **OR** (∨), **NOT** (¬), **IF-THEN** (→), and **IF AND ONLY IF** (↔) to form compound statements. It is fundamental in mathematics, computer science, and philosophy for reasoning and problem-solving.

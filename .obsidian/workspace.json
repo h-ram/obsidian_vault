@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "fa397fbf5a2c3022",
+    "type": "split",
+    "children": [
+      {
+        "id": "38492477648c8be8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35eb89563dd727ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "University"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "da1dc39c0a825c33",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e84afe9b738c6d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a49ad13edad3d3f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "64b0502ecc7b8917",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5e128b5a321f45a4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "be5b3fc978308041",
+    "type": "split",
+    "children": [
+      {
+        "id": "85400cfaa59149d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01b3449b948dc9e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Principal Component Analysis (PCA).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Principal Component Analysis (PCA)"
+            }
+          },
+          {
+            "id": "eebe176232e40f7d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "University.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from University"
+            }
+          },
+          {
+            "id": "04a20c41b24e6eb5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "89cca2ef83bf424c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "University.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of University"
+            }
+          },
+          {
+            "id": "05c1154548520dce",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 384.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "35eb89563dd727ab",
+  "lastOpenFiles": [
+    "Shell Connections.md",
+    "University.md",
+    "camel_tools.py.md",
+    "stanza.py.md",
+    "farasa.py.md",
+    "venv.py.md",
+    "Arch Linux.md",
+    "rclone.md",
+    "GitHub.md",
+    "Package Manager (Pacman).md",
+    "Google Form.md",
+    "Linux Unified Key Setup (LUKS).md",
+    "Cron.md",
+    "attachments/Pasted image 20250307223952.png",
+    "attachments/Pasted image 20250307223949.png",
+    "Swap Memory.md",
+    "Correspondence Analysis (CA).md",
+    "Java.md",
+    "Affine Cipher.md",
+    "Java Agent Development Framework (JADE).md",
+    "A Star.md",
+    "spade.py.md",
+    "Personal Notes.md",
+    "Principal Component Analysis (PCA).md",
+    "Determinant.md",
+    "Matrices.md",
+    "spacy.py.md",
+    "Natural Language Processing (NLP).md"
+  ]
+}

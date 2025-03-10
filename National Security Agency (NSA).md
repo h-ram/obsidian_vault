@@ -1,0 +1,4 @@
+The **NSA** is a U.S. government agency that does two main things:
+1. **Listens to and reads foreign communications**: It spies on other countries' communications (like phone calls, emails, and internet traffic) to find out if anyone is planning to hurt the U.S. or break the law.
+2. **Keeps U.S. secrets safe**: It makes sure that the U.S. government’s information, especially sensitive or classified stuff, is protected from hackers, foreign governments, or anyone who might try to steal it.
+They’re kind of like **the U.S. government's spy and security service** for digital stuff, and they work secretly to keep the country safe from cyber threats and to gather intelligence on bad guys.

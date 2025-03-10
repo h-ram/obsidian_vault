@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "fa397fbf5a2c3022",
+    "type": "split",
+    "children": [
+      {
+        "id": "38492477648c8be8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35eb89563dd727ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arch Linux.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Arch Linux"
+            }
+          },
+          {
+            "id": "5061b15eb1307dfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "venv.py.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "venv.py"
+            }
+          },
+          {
+            "id": "f2352f7c1ddaf1a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cron.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Cron"
+            }
+          },
+          {
+            "id": "289b38e420a7abce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Package Manager (Pacman).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Package Manager (Pacman)"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "da1dc39c0a825c33",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e84afe9b738c6d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a49ad13edad3d3f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "64b0502ecc7b8917",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5e128b5a321f45a4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "be5b3fc978308041",
+    "type": "split",
+    "children": [
+      {
+        "id": "85400cfaa59149d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01b3449b948dc9e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Principal Component Analysis (PCA).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Principal Component Analysis (PCA)"
+            }
+          },
+          {
+            "id": "eebe176232e40f7d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "University.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from University"
+            }
+          },
+          {
+            "id": "04a20c41b24e6eb5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "89cca2ef83bf424c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "venv.py.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of venv.py"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "5061b15eb1307dfb",
+  "lastOpenFiles": [
+    "rclone.md",
+    "venv.py.md",
+    "Package Manager (Pacman).md",
+    "Cron.md",
+    "GitHub.md",
+    "Linux Unified Key Setup (LUKS).md",
+    "Arch Linux.md",
+    "Google Form.md",
+    "attachments/Pasted image 20250307223952.png",
+    "attachments/Pasted image 20250307223949.png",
+    "Swap Memory.md",
+    "Correspondence Analysis (CA).md",
+    "Java.md",
+    "Affine Cipher.md",
+    "Java Agent Development Framework (JADE).md",
+    "A Star.md",
+    "University.md",
+    "spade.py.md",
+    "Personal Notes.md",
+    "Principal Component Analysis (PCA).md",
+    "Determinant.md",
+    "Matrices.md",
+    "spacy.py.md",
+    "Natural Language Processing (NLP).md",
+    "Natural Language Processings (NLP).md",
+    "Characteristic Equation.md",
+    "Singular Value Decomposition (SVD).md",
+    "Eigenvalues and Eigenvectors.md"
+  ]
+}

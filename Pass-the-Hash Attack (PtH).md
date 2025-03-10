@@ -1,0 +1,1 @@
+A **Pass-the-Hash attack** is a technique where an attacker captures a password hash and then passes it through for authentication. With this technique, the threat actor doesn’t need to decrypt the hash to obtain a plain text password.

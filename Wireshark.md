@@ -1,0 +1,2 @@
+Wireshark is a **network protocol analyzer** that captures and inspects network packets in real time.
+Wireshark is often compared to a **"sniffer"**, as it allows users to "see" the data being transmitted over a network, including source and destination addresses, protocols used, and even payload data if it’s not encrypted.

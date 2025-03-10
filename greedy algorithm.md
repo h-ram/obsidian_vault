@@ -1,0 +1,1 @@
+a greedy algorithm is a lazy algorithm, it doesn't want to put in a lot of work to find the best solution for the problem. Instead, it looks for locally optimal solutions, and hopes that those solutions will lead to a globally optimal solution.
