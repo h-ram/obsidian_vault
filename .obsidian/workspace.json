@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University.md",
+                "file": "iwctl.sh.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "University"
+              "title": "iwctl.sh"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University.md",
+                "file": "iwctl.sh.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of University"
+              "title": "Outline of iwctl.sh"
             }
           },
           {
@@ -184,8 +184,9 @@
   },
   "active": "35eb89563dd727ab",
   "lastOpenFiles": [
-    "Shell Connections.md",
     "University.md",
+    "iwctl.sh.md",
+    "Shell Connections.md",
     "camel_tools.py.md",
     "stanza.py.md",
     "farasa.py.md",
@@ -210,7 +211,6 @@
     "Principal Component Analysis (PCA).md",
     "Determinant.md",
     "Matrices.md",
-    "spacy.py.md",
-    "Natural Language Processing (NLP).md"
+    "spacy.py.md"
   ]
 }
