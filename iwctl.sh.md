@@ -1,4 +1,4 @@
-`iwctl` is the command-line interface for **iwd** (iNet Wireless Daemon), which is a lightweight and efficient wireless network manager for Linux. It is designed as an alternative to `wpa_supplicant` and integrates well with systemd.
+`iwctl` is the command-line interface for **iwd** (iNet Wireless Daemon), which is a lightweight and efficient wireless network manager for Linux.
 ```bash
 $ iwctl
 [iwctl] device list
@@ -8,13 +8,13 @@ $ iwctl
 passphrase: #enter MyWifi password
 ```
 ---
-## **1. Checking if `iwd` is Installed and Running**
+## **Installation**
 Before using `iwctl`, ensure that **iwd** is installed and running.
 ```bash
 sudo pacman -S iwd                   # Arch Linux
 sudo apt install iwd                 # Debian-based
 ```
-### **Enable `iwd` and start it:**
+**Enable `iwd` and start it:**
 ```bash
 $ sudo systemctl enable --now iwd
 $ systemctl status iwd
@@ -51,16 +51,16 @@ After scanning, list detected networks:
 ```
 ---
 #### **3. Connecting to a Wi-Fi Network**
-##### **3.1 Connecting to an Open Network**
+**3.1 Connecting to an Open Network**
 ```bash
 [iwctl] station wlan0 connect "PublicWiFi"
 ```
-###### **3.2 Connecting to a Password-Protected Network**
+**3.2 Connecting to a Password-Protected Network**
 ```bash
 [iwctl] station wlan0 connect "MyWiFi" --passphrase "your_password"
 Connected successfully
 ```
-##### **3.3 Connecting with a Hidden SSID**
+**3.3 Connecting with a Hidden SSID**
 ```bash
 [iwctl] station wlan0 connect-hidden "HiddenSSID" --passphrase "your_password"
 ```
