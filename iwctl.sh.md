@@ -1,5 +1,12 @@
 `iwctl` is the command-line interface for **iwd** (iNet Wireless Daemon), which is a lightweight and efficient wireless network manager for Linux. It is designed as an alternative to `wpa_supplicant` and integrates well with systemd.
-
+```bash
+$ iwctl
+[iwctl] device list
+[iwctl] station wlan0 scan
+[iwctl] station wlan0 get-networks
+[iwctl] station wlan0 connect "MyWifi"
+passphrase: #enter MyWifi password
+```
 ---
 ## **1. Checking if `iwd` is Installed and Running**
 Before using `iwctl`, ensure that **iwd** is installed and running.
@@ -26,18 +33,13 @@ There are two ways to use iwctl:
 	$ iwctl <command>
 	```
 #### **1. Checking Available Interfaces**
-To list available Wi-Fi interfaces:
 ```bash
 [iwctl]$ device list
 Devices:
  Name     Type      Powered   Adapter   Mode
  wlan0    station   on        phy0      connected
 ```
-This shows that `wlan0` is the available network interface.
-
----
-## **4. Scanning for Wi-Fi Networks**
-To scan for available networks:
+#### **2. Scanning for Wi-Fi Networks**
 ```bash
 iwctl station wlan0 scan
 ```
