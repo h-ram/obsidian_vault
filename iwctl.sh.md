@@ -11,13 +11,10 @@ apt list --installed | grep iwd  # Debian-based
 ```bash
 sudo systemctl enable --now iwd
 ```
-
 ### **Check service status:**
-
 ```bash
 systemctl status iwd
 ```
-
 ---
 
 ## **2. Using `iwctl`**
