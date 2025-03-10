@@ -6,9 +6,10 @@
       {
         "id": "38492477648c8be8",
         "type": "tabs",
+        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "35eb89563dd727ab",
+            "id": "d2857183c3449749",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -74,8 +75,26 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "89cca2ef83bf424c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "iwctl.sh.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "pinned": true,
+              "icon": "lucide-list",
+              "title": "Outline of iwctl.sh"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -138,21 +157,6 @@
             }
           },
           {
-            "id": "89cca2ef83bf424c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "iwctl.sh.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of iwctl.sh"
-            }
-          },
-          {
             "id": "05c1154548520dce",
             "type": "leaf",
             "state": {
@@ -163,11 +167,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 267.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,10 +186,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35eb89563dd727ab",
+  "active": "89cca2ef83bf424c",
   "lastOpenFiles": [
-    "University.md",
     "iwctl.sh.md",
+    "University.md",
     "Shell Connections.md",
     "camel_tools.py.md",
     "stanza.py.md",

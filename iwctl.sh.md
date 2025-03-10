@@ -35,11 +35,11 @@ There are two ways to use iwctl:
 #### **1. Checking Available Interfaces**
 ```bash
 [iwctl]$ device list
-                                   Devices                                   *
---------------------------------------------------------------------------------
- Name                  Address               Powered     Adapter     Mode
---------------------------------------------------------------------------------
- wlan0                 d4:3b:04:f4:7e:ff     on          phy0        station
+                                  Devices                                *
+--------------------------------------------------------------------------
+ Name                  Address             Powered     Adapter     Mode
+--------------------------------------------------------------------------
+ wlan0                 d4:3b:04:f4:7e:ff   on          phy0        station
 ```
 #### **2. Scanning for Wi-Fi Networks**
 ```bash
@@ -263,7 +263,7 @@ sudo systemctl enable --now wpa_supplicant
 
 `iwctl` is a powerful and lightweight tool for managing Wi-Fi on Linux. It simplifies network management while being more efficient than `wpa_supplicant`.
 
-# Etymology
+# **Etymology**
 
 `iwctl` stands for **"iNet Wireless Control Tool"**.
 
