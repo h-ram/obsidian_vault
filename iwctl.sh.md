@@ -1,5 +1,3 @@
-### **Complete Guide to `iwctl` (iNet Wireless Daemon Control Tool)**
-
 `iwctl` is the command-line interface for **iwd** (iNet Wireless Daemon), which is a lightweight and efficient wireless network manager for Linux. It is designed as an alternative to `wpa_supplicant` and integrates well with systemd.
 
 ---
