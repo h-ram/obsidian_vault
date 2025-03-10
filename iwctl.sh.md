@@ -3,13 +3,10 @@
 ---
 ## **1. Checking if `iwd` is Installed and Running**
 Before using `iwctl`, ensure that **iwd** is installed and running.
-### **Check if `iwd` is installed:**
-
 ```bash
 pacman -Q iwd   # Arch Linux
 apt list --installed | grep iwd  # Debian-based
 ```
-
 ### **Start `iwd` if not running:**
 
 ```bash
