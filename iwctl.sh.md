@@ -20,7 +20,7 @@ $ sudo systemctl enable --now iwd
 $ systemctl status iwd
 ```
 ---
-## **Usage** 
+# **Usage** 
 There are two ways to use iwctl:
 1. start `iwctl` console:
 	```bash
@@ -51,16 +51,16 @@ After scanning, list detected networks:
 ```
 ---
 #### **3. Connecting to a Wi-Fi Network**
-**3.1 Connecting to an Open Network**
+**Connecting to an Open Network**
 ```bash
 [iwctl] station wlan0 connect "PublicWiFi"
 ```
-**3.2 Connecting to a Password-Protected Network**
+**Connecting to a Password-Protected Network**
 ```bash
 [iwctl] station wlan0 connect "MyWiFi" --passphrase "your_password"
 Connected successfully
 ```
-**3.3 Connecting with a Hidden SSID**
+**Connecting with a Hidden SSID**
 ```bash
 [iwctl] station wlan0 connect-hidden "HiddenSSID" --passphrase "your_password"
 ```
@@ -71,109 +71,40 @@ Connected successfully
 ```
 ---
 #### **5. Managing Saved Networks**
-
-### **7.1 Listing Saved Networks**
-
+**Listing Saved Networks**
 ```bash
-iwctl known-networks list
+[iwctl] known-networks list
 ```
-
-### **7.2 Forgetting a Saved Network**
-
+**Forgetting a Saved Network**
 ```bash
-iwctl known-networks "MyWiFi" forget
+[iwctl] known-networks "MyWiFi" forget
 ```
-
-### **7.3 Forget All Networks**
-
+**Forget All Networks**
 ```bash
-iwctl known-networks flush
+[iwctl] known-networks flush
 ```
-
 ---
-
-## **8. Checking Connection Status**
-
-To check the current connection status:
-
+#### **8. Checking Connection Status**
 ```bash
-iwctl station wlan0 show
-```
+[iwctl] station wlan0 show
 
-Example output:
-
-```
 Connected network: MyWiFi
 Signal strength: 75%
 IP address: 192.168.1.100
 ```
-
 ---
-
-## **9. Power Management**
-
-### **9.1 Turning Wi-Fi On/Off**
-
-Turn Wi-Fi on:
-
+#### **9. Power Management**
+**Turning Wi-Fi On/Off**
 ```bash
-iwctl radio wifi on
+[iwctl] radio wifi on
+[iwctl] radio wifi off
 ```
-
-Turn Wi-Fi off:
-
+**Enabling/Disabling a Specific Interface**
 ```bash
-iwctl radio wifi off
+[iwctl] device wlan0 set-property Powered on
+[iwctl] device wlan0 set-property Powered off
 ```
-
-### **9.2 Enabling/Disabling a Specific Interface**
-
-Enable the `wlan0` interface:
-
-```bash
-iwctl device wlan0 set-property Powered on
-```
-
-Disable it:
-
-```bash
-iwctl device wlan0 set-property Powered off
-```
-
 ---
-
-## **10. Connecting via DHCP or Static IP**
-
-By default, `iwd` does not handle IP addressing. Instead, it relies on **systemd-networkd** or **dhclient**.
-
-### **10.1 Using `dhclient`**
-
-If you use `dhclient`, run:
-
-```bash
-sudo dhclient wlan0
-```
-
-### **10.2 Using `systemd-networkd`**
-
-Configure `/etc/systemd/network/25-wireless.network`:
-
-```
-[Match]
-Name=wlan0
-
-[Network]
-DHCP=yes
-```
-
-Then restart `systemd-networkd`:
-
-```bash
-sudo systemctl restart systemd-networkd
-```
-
----
-
 ## **11. Debugging & Logs**
 
 ### **11.1 Check if `iwd` is Running**
@@ -191,23 +122,19 @@ journalctl -u iwd --no-pager
 ### **11.3 Check Wireless Device Info**
 
 ```bash
-iwctl device wlan0 show
+[iwctl] device wlan0 show
 ```
 
 ### **11.4 Check Network Information**
 
 ```bash
-iwctl station wlan0 show
+[iwctl] station wlan0 show
 ```
 
 ---
-
 ## **12. Advanced Configuration**
-
 `iwd` stores configurations in `/var/lib/iwd/`.
-
 ### **12.1 Manually Configuring Wi-Fi**
-
 You can manually edit the Wi-Fi configuration:
 
 ```bash
@@ -239,35 +166,7 @@ sudo systemctl restart iwd
 |IPv4/IPv6 DHCP|Requires `systemd-networkd` or `dhclient`|Can handle DHCP directly|
 
 ---
-
-## **14. Uninstalling `iwd`**
-
-If you want to remove `iwd` and switch back to `wpa_supplicant`:
-
-### **Remove `iwd`:**
-
-```bash
-sudo pacman -Rns iwd   # Arch Linux
-sudo apt remove --purge iwd   # Debian-based
-```
-
-### **Re-enable `wpa_supplicant`:**
-
-```bash
-sudo systemctl enable --now wpa_supplicant
-```
-
----
-
-## **Conclusion**
-
-`iwctl` is a powerful and lightweight tool for managing Wi-Fi on Linux. It simplifies network management while being more efficient than `wpa_supplicant`.
-
 # **Etymology**
-
 `iwctl` stands for **"iNet Wireless Control Tool"**.
-
 - **`iNet Wireless`** refers to **iwd** (iNet Wireless Daemon), a lightweight wireless network manager developed by Intel.
 - **`Control Tool`** indicates that `iwctl` is a command-line interface used to manage Wi-Fi networks via `iwd`.
-
-Essentially, `iwctl` is the CLI tool used to interact with **iwd**, allowing you to scan, connect, disconnect, and manage wireless networks efficiently. 🚀
