@@ -35,68 +35,42 @@ There are two ways to use iwctl:
 #### **1. Checking Available Interfaces**
 ```bash
 [iwctl]$ device list
-Devices:
- Name     Type      Powered   Adapter   Mode
- wlan0    station   on        phy0      connected
+                                   Devices                                   *
+--------------------------------------------------------------------------------
+ Name                  Address               Powered     Adapter     Mode
+--------------------------------------------------------------------------------
+ wlan0                 d4:3b:04:f4:7e:ff     on          phy0        station
 ```
 #### **2. Scanning for Wi-Fi Networks**
 ```bash
-iwctl station wlan0 scan
+[iwctl] station wlan0 scan
 ```
 After scanning, list detected networks:
 ```bash
-iwctl station wlan0 get-networks
-```
-Example output:
-```
-Available networks:
-Network name     Signal   Security
-MyWiFi           80%      wpa2
-PublicWiFi       60%      open
+[iwctl] station wlan0 get-networks
 ```
 ---
-## **5. Connecting to a Wi-Fi Network**
-### **5.1 Connecting to an Open Network**
-If the network has no password:
+#### **3. Connecting to a Wi-Fi Network**
+##### **3.1 Connecting to an Open Network**
 ```bash
-iwctl station wlan0 connect "PublicWiFi"
+[iwctl] station wlan0 connect "PublicWiFi"
 ```
-
-### **5.2 Connecting to a Password-Protected Network**
-
-If the network requires a password:
-
+###### **3.2 Connecting to a Password-Protected Network**
 ```bash
-iwctl station wlan0 connect "MyWiFi" --passphrase "your_password"
-```
-
-If successful, it will say:
-
-```
+[iwctl] station wlan0 connect "MyWiFi" --passphrase "your_password"
 Connected successfully
 ```
-
-### **5.3 Connecting with a Hidden SSID**
-
-If the network does not broadcast its SSID:
-
+##### **3.3 Connecting with a Hidden SSID**
 ```bash
-iwctl station wlan0 connect-hidden "HiddenSSID" --passphrase "your_password"
+[iwctl] station wlan0 connect-hidden "HiddenSSID" --passphrase "your_password"
 ```
-
 ---
-
-## **6. Disconnecting from a Network**
-
-To disconnect from the current Wi-Fi network:
-
+#### **4. Disconnecting from a Network**
 ```bash
-iwctl station wlan0 disconnect
+[iwctl] station wlan0 disconnect
 ```
-
 ---
-
-## **7. Managing Saved Networks**
+#### **5. Managing Saved Networks**
 
 ### **7.1 Listing Saved Networks**
 
