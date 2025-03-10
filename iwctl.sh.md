@@ -19,7 +19,6 @@ To start `iwctl`, simply run:
 $ iwctl
 [iwctl]# 
 ```
-This launches an interactive shell where you can run commands.
 Alternatively, you can execute a command directly:
 ```bash
 iwctl <command>
