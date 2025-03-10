@@ -28,11 +28,7 @@ There are two ways to use iwctl:
 #### **1. Checking Available Interfaces**
 To list available Wi-Fi interfaces:
 ```bash
-iwctl device list
-```
-Example output:
-
-```
+[iwctl]$ device list
 Devices:
  Name     Type      Powered   Adapter   Mode
  wlan0    station   on        phy0      connected
