@@ -13,19 +13,14 @@ $ sudo systemctl enable --now iwd
 $ systemctl status iwd
 ```
 ---
-
 ## **2. Using `iwctl`**
-
 To start `iwctl`, simply run:
-
 ```bash
-iwctl
+$ iwctl
+[iwctl]# 
 ```
-
 This launches an interactive shell where you can run commands.
-
 Alternatively, you can execute a command directly:
-
 ```bash
 iwctl <command>
 ```
