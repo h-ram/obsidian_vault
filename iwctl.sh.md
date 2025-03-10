@@ -33,42 +33,29 @@ Devices:
  Name     Type      Powered   Adapter   Mode
  wlan0    station   on        phy0      connected
 ```
-
 This shows that `wlan0` is the available network interface.
 
 ---
-
 ## **4. Scanning for Wi-Fi Networks**
-
 To scan for available networks:
-
 ```bash
 iwctl station wlan0 scan
 ```
-
 After scanning, list detected networks:
-
 ```bash
 iwctl station wlan0 get-networks
 ```
-
 Example output:
-
 ```
 Available networks:
 Network name     Signal   Security
 MyWiFi           80%      wpa2
 PublicWiFi       60%      open
 ```
-
 ---
-
 ## **5. Connecting to a Wi-Fi Network**
-
 ### **5.1 Connecting to an Open Network**
-
 If the network has no password:
-
 ```bash
 iwctl station wlan0 connect "PublicWiFi"
 ```
