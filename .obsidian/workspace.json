@@ -36,23 +36,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "89cca2ef83bf424c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "iwctl.sh.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "pinned": true,
-              "icon": "lucide-list",
-              "title": "Outline of iwctl.sh"
-            }
-          },
-          {
             "id": "6a49ad13edad3d3f",
             "type": "leaf",
             "state": {
@@ -184,16 +167,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d2857183c3449749",
+  "active": "6a49ad13edad3d3f",
   "lastOpenFiles": [
     "iwctl.sh.md",
+    "Arch Linux.md",
     "University.md",
     "Shell Connections.md",
     "camel_tools.py.md",
     "stanza.py.md",
     "farasa.py.md",
     "venv.py.md",
-    "Arch Linux.md",
     "rclone.md",
     "GitHub.md",
     "Package Manager (Pacman).md",

@@ -43,9 +43,7 @@ root@archiso $ archinstall
 | > 32GB       | 0GB – 2GB (or none)       | 1.5× RAM                    |
 #### 7. **Bootloader**
 - Choose Grub
-
 - Audio : Pipewire
-- 
 ## Manual Install
 ---
 Relate: [[Package Manager (Pacman)|Pacman]]
