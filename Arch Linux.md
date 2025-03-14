@@ -43,6 +43,17 @@ root@archiso $ archinstall
 #### 7. **Bootloader**
 - Choose Grub
 - Audio : Pipewire
+## Post Install
+1. remove the default directories.
+```bash
+$ vim ~/.config/user-dirs.dirs
+XDG_DOCUMENTS_DIR="$HOME/Documents"
+XDG_DOWNLOAD_DIR="$HOME/Downloads"
+XDG_PICTURES_DIR="$HOME/Pictures"
+...SNIP...
+$ xdg-user-dirs-update # applies changes
+```
+
 ## Manual Install
 ---
 Relate: [[Package Manager (Pacman)|Pacman]]
