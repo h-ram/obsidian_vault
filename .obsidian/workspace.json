@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arch Linux.md",
+                "file": "zshell.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Arch Linux"
+              "title": "zshell"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Arch Linux.md",
+                "file": "zshell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Arch Linux"
+              "title": "Backlinks for zshell"
             }
           },
           {
@@ -167,10 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a49ad13edad3d3f",
+  "active": "d2857183c3449749",
   "lastOpenFiles": [
-    "iwctl.sh.md",
     "Arch Linux.md",
+    "zshell.md",
+    "iwctl.sh.md",
     "University.md",
     "Shell Connections.md",
     "camel_tools.py.md",
@@ -195,7 +196,6 @@
     "Personal Notes.md",
     "Principal Component Analysis (PCA).md",
     "Determinant.md",
-    "Matrices.md",
-    "spacy.py.md"
+    "Matrices.md"
   ]
 }
