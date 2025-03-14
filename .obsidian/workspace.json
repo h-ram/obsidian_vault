@@ -6,7 +6,6 @@
       {
         "id": "38492477648c8be8",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "d2857183c3449749",
@@ -14,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iwctl.sh.md",
+                "file": "Arch Linux.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "iwctl.sh"
+              "title": "Arch Linux"
             }
           }
         ]
@@ -74,6 +73,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "d5beeecfe2c123c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
         ]
@@ -168,7 +184,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89cca2ef83bf424c",
+  "active": "d2857183c3449749",
   "lastOpenFiles": [
     "iwctl.sh.md",
     "University.md",
