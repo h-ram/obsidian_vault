@@ -6,7 +6,6 @@
       {
         "id": "38492477648c8be8",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "d2857183c3449749",
@@ -74,6 +73,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "6940c1bfcf9e8466",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
         ]
