@@ -21,8 +21,7 @@ root@archsio $ date
 root@archiso $ sudo pacman -Sy archinstall
 root@archiso $ archinstall
 ```
-#### 3. **Mirrors Region**
-- Select Mirrors Region `France` (if algeria is not available)
+3. **Mirrors Region** :Select Mirrors Region `France` (if algeria is not available)
 #### 4. **Disk Configuration**
 - **Best-effort default layout**: Wipes the disk and sets up EFI (if UEFI), root, and swap automatically.    
 - **Manual partitioning**: For custom setups (e.g., dual-boot).
