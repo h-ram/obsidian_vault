@@ -21,16 +21,16 @@ root@archsio $ date
 root@archiso $ sudo pacman -Sy archinstall
 root@archiso $ archinstall
 ```
-3. **Mirrors Region** :Select Mirrors Region `France` (if algeria is not available)
-#### 4. **Disk Configuration**
-- **Best-effort default layout**: Wipes the disk and sets up EFI (if UEFI), root, and swap automatically.    
-- **Manual partitioning**: For custom setups (e.g., dual-boot).
-#### 5. **Disk Encryption**
-- Don't encyprt usually
-- else use [[Linux Unified Key Setup (LUKS)]]
-#### 6. **Swap**
-- [[Swap Memory]]
-- the ideal swap size depends on your **RAM size**, **usage**, and whether you need **hibernation**.
+3. **Mirrors Region**: Select Mirrors Region `France` (if algeria is not available)
+4. **Disk Configuration**
+	- **Best-effort default layout**: Wipes the disk and sets up EFI (if UEFI), root, and swap automatically.    
+	- **Manual partitioning**: For custom setups (e.g., dual-boot).
+5. **Disk Encryption**
+	- Don't encyprt usually
+	- else use [[Linux Unified Key Setup (LUKS)]]
+6. **Swap**
+	- [[Swap Memory]]
+	- the ideal swap size depends on your **RAM size**, **usage**, and whether you need **hibernation**.
 
 | **RAM Size** | **Swap (No Hibernation)** | **Swap (With Hibernation)** |
 | ------------ | ------------------------- | --------------------------- |
@@ -39,10 +39,10 @@ root@archiso $ archinstall
 | 8GB – 16GB   | 2GB – 4GB                 | 1.5× RAM                    |
 | 16GB – 32GB  | 1GB – 4GB                 | 1.5× RAM                    |
 | > 32GB       | 0GB – 2GB (or none)       | 1.5× RAM                    |
-#### 7. **Bootloader**
-- Choose Grub
-- Audio : Pipewire
-## Post Install
+7. **Bootloader**
+	- Choose Grub
+8. **Audio** : Pipewire
+## **Post Install**
 1. remove the default directories.
 ```bash
 $ vim ~/.config/user-dirs.dirs
@@ -50,6 +50,7 @@ XDG_DOCUMENTS_DIR="$HOME/Documents"
 XDG_DOWNLOAD_DIR="$HOME/Downloads"
 XDG_PICTURES_DIR="$HOME/Pictures"
 ...SNIP...
+
 $ xdg-user-dirs-update # applies changes
 ```
 
