@@ -37,8 +37,7 @@
               "title": "Swap Memory"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,13 +56,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Swap Memory.md",
+                "file": "Arch Linux.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Swap Memory"
+              "title": "Outline of Arch Linux"
             }
           },
           {
@@ -198,10 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59026322363cbf6a",
+  "active": "d2857183c3449749",
   "lastOpenFiles": [
-    "Arch Linux.md",
     "Swap Memory.md",
+    "Arch Linux.md",
     "iwctl.sh.md",
     "conflict-files-obsidian-git.md",
     "zshell.md",

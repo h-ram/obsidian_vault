@@ -28,16 +28,7 @@ root@archiso $ archinstall
 5. **Disk Encryption**
 	- Don't encyprt usually
 	- else use [[Linux Unified Key Setup (LUKS)]]
-6. **Swap**
-	- enable [[Swap Memory]] with 4GB (usually)
-
-| **RAM Size** | **Swap (No Hibernation)** | **Swap (With Hibernation)** |
-| ------------ | ------------------------- | --------------------------- |
-| ≤ 2GB        | 2GB – 4GB                 | 1.5× RAM                    |
-| 4GB – 8GB    | 2GB – 4GB                 | 1.5× RAM                    |
-| 8GB – 16GB   | 2GB – 4GB                 | 1.5× RAM                    |
-| 16GB – 32GB  | 1GB – 4GB                 | 1.5× RAM                    |
-| > 32GB       | 0GB – 2GB (or none)       | 1.5× RAM                    |
+6. **Swap**: enable [[Swap Memory]] with 4GB (usually)
 7. **Bootloader** - Choose Grub
 8. **Audio** : Pipewire
 ## **Post Install**
