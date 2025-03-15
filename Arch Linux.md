@@ -29,8 +29,7 @@ root@archiso $ archinstall
 	- Don't encyprt usually
 	- else use [[Linux Unified Key Setup (LUKS)]]
 6. **Swap**
-	- [[Swap Memory]]
-	- the ideal swap size depends on your **RAM size**, **usage**, and whether you need **hibernation**.
+	- enable [[Swap Memory]] with 4GB (usually)
 
 | **RAM Size** | **Swap (No Hibernation)** | **Swap (With Hibernation)** |
 | ------------ | ------------------------- | --------------------------- |
@@ -39,8 +38,7 @@ root@archiso $ archinstall
 | 8GB – 16GB   | 2GB – 4GB                 | 1.5× RAM                    |
 | 16GB – 32GB  | 1GB – 4GB                 | 1.5× RAM                    |
 | > 32GB       | 0GB – 2GB (or none)       | 1.5× RAM                    |
-7. **Bootloader**
-	- Choose Grub
+7. **Bootloader** - Choose Grub
 8. **Audio** : Pipewire
 ## **Post Install**
 1. remove the default directories.

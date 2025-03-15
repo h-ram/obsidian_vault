@@ -10,5 +10,7 @@ Swap is a space on your Hard drive (hdd or ssd) used as **virtual memory** when 
 - If you have **plenty of RAM** (>16GB) and no heavy workloads.
 - On SSDs (reduces wear, but can still be used).
 
+## **How much Swap **
+the ideal swap size depends on your **RAM size**, **usage**, and whether you need **hibernation**.
 ## Etymology
 It's called **swap** because it "swaps" data between RAM and disk storage. When RAM is full, the system moves (or **swaps out**) less-used memory pages to disk (swap space). When needed again, those pages are **swapped back** into RAM.
