@@ -38,7 +38,6 @@
           {
             "id": "89cca2ef83bf424c",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "outline",
               "state": {
@@ -47,7 +46,6 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "pinned": true,
               "icon": "lucide-list",
               "title": "Outline of iwctl.sh"
             }
@@ -186,7 +184,9 @@
   },
   "active": "d2857183c3449749",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "iwctl.sh.md",
+    "zshell.md",
     "University.md",
     "Shell Connections.md",
     "camel_tools.py.md",
@@ -211,8 +211,6 @@
     "spade.py.md",
     "Personal Notes.md",
     "Principal Component Analysis (PCA).md",
-    "Determinant.md",
-    "Matrices.md",
-    "spacy.py.md"
+    "Determinant.md"
   ]
 }
