@@ -11,10 +11,15 @@
             "id": "edefaa4ebf4633ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "scrapy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "scrapy"
             }
           }
         ]
@@ -36,12 +41,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "scrapy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of scrapy"
             }
           },
           {
@@ -178,6 +184,7 @@
   },
   "active": "edefaa4ebf4633ea",
   "lastOpenFiles": [
+    "scrapy.md",
     "Arch Linux.md",
     "Swap Memory.md",
     "iwctl.sh.md",
@@ -204,7 +211,6 @@
     "A Star.md",
     "spade.py.md",
     "Personal Notes.md",
-    "Principal Component Analysis (PCA).md",
-    "Determinant.md"
+    "Principal Component Analysis (PCA).md"
   ]
 }
