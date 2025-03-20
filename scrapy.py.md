@@ -1,3 +1,5 @@
 ```bash
-pip 
+pip install scrapy
 ```
+
+# **Usage**
