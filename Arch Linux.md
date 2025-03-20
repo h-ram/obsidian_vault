@@ -16,7 +16,7 @@
 root@archiso $ timedatectl set-ntp true
 root@archsio $ date
 ```
-## archinstall
+## **archinstall**
 ```bash
 root@archiso $ sudo pacman -Sy archinstall
 root@archiso $ archinstall
@@ -30,7 +30,7 @@ root@archiso $ archinstall
 	- else use [[Linux Unified Key Setup (LUKS)]]
 6. **Swap**: enable [[Swap Memory]] with 4GB (usually)
 7. **Bootloader** - Choose Grub
-8. **Audio** : Pipewire
+8. **Audio** : Pipewire (because it is the modern one instead of puleaudio)
 ## **Post Install**
 1. remove the default directories.
 ```bash
